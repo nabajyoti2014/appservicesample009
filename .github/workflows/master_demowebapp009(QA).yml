@@ -32,5 +32,5 @@ jobs:
       with:
         app-name: 'demowebapp009'
         slot-name: 'QA'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_c959d56a2fed4bdbadb3433364208963 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_92bdc09bfd8c40cebb3540e10cea01a9 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
