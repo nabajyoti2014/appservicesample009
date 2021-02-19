@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>2f0d9b44-0582-44a9-950b-8e5402c6dcf5</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/7e154307-8493-442a-a88e-9967504013c7/resourceGroups/az-303-resgrp/providers/microsoft.insights/components/demoai009</ApplicationInsightsResourceId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
+
+</Project>
